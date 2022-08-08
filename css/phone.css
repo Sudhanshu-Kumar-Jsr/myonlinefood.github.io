@@ -1,0 +1,150 @@
+/* navigation section */
+
+#navbar {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+
+
+}
+#navbar ul li {
+    list-style-type: none;
+    font-size: 0.7rem;
+}
+
+#navbar ul li a {
+ 
+    display: block;
+    padding: 3px 6px;
+ 
+}
+/* navigation bar logo and image */
+
+#logo {
+    margin: 5px 4px;
+}
+
+#logo img {
+    margin: 5px 5px;
+    height: 37px;
+}
+
+
+
+
+/* home section */
+
+#home{
+    top: 0px;
+    left: 0px;
+    padding: 10px 5px;
+}
+#home::before{
+    top: 0px;
+    left: 0px;
+    height: 325px;
+}
+#home h1 {
+    color: aquamarine;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+#home p {
+    color: white;
+    font-size: 0.7rem;
+    padding:  0 17px 0 17px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+}
+/* utility classes overwrited home H1 */
+
+ #hs{
+    font-size: 1.8rem;
+    margin-top: -5px;
+    padding: 12px;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+
+
+
+/* service section */
+#services{
+    flex-direction: column;
+}
+
+
+
+
+
+/* client section */
+
+
+
+#client img {
+    height: 70px;
+}
+
+
+
+#client-section {
+    height: 165px;
+
+   
+   }
+
+
+
+/* contact us section */
+#contact-box{padding: 25px 55px;}
+
+/* utility classes */
+
+.h-primary {
+    font-size: 1.2rem;
+  
+    padding: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.h-secondary {
+    font-size: 1rem;
+    padding: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+.btn {
+    padding: 5px 8px;
+    border: 2px solid white;
+    margin: 17px;
+
+    font-size: 0.65rem;
+    border-radius: 8px;
+
+}
+
+
+@media screen and (max-width:345px) {
+#services .box img {
+    height: 80px;
+    display: block;
+    margin: auto;
+    
+}
+#services .box {
+padding: 14px;
+
+}
+.h-primary{
+    font-size: 0.8rem;
+}
+
+}
